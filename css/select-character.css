@@ -1,0 +1,65 @@
+body {
+    background-image: url('../images/background-characters-3.jpg');
+    background-size: cover;
+    background-position: center;        
+    background-repeat: no-repeat;
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; /* Garantir que o body ocupe toda a altura da tela */
+}
+
+main {
+    text-align: center; /* Centralizar o texto do header */
+}
+h1{
+    color: rgb(6, 71, 17) ;
+    margin-top: -20%;
+    margin-bottom: 1em;
+    font-size: 4em;
+    padding: 25px;
+}
+.character-selection {
+    display: flex; /* Tornar o contêiner dos personagens flexível */
+    justify-content: center; /* Centralizar personagens horizontalmente */
+}
+
+.character {
+    margin: 0 10px; /* Adicionar espaçamento entre os personagens */
+}
+
+.character img {
+    max-width: 250px; /* Limitar a largura máxima da imagem */
+}
+
+.character button {
+    margin-top: 10px; /* Adicionar espaçamento entre a imagem e o botão */
+}
+
+.select-button{
+    background-color:#228B22;
+    border-radius: 8px;
+    color: rgb(2, 27, 4) ;
+    cursor: pointer;
+    font-size: 2em;
+    max-width: 300px;
+    padding: 15px;
+    width: 100%;
+}
+
+
+.back-button {
+    background-color: #228B22;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(2, 27, 4);
+    font-size: 1em; /* Alterado o tamanho do texto para 1em (padrão) */
+    padding: 0.5em 1em; /* Adicionado preenchimento ao botão para melhorar a aparência */
+    text-decoration: none;
+    position: absolute;
+    max-width: 200px;
+    margin-top: 10em;
+    }

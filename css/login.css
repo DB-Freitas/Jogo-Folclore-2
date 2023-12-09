@@ -1,5 +1,5 @@
 body {
-    background-image: url('../images/background-login-2.jpg');
+    background-image: url('../images/background-login.jpg');
     background-size: cover;
     background-position: center;        
     background-repeat: no-repeat;
@@ -22,7 +22,9 @@ body {
 }
 
 .login_header img{
-    width: 200px;
+    margin-left: 70px;
+    width: 250px;
+    align-items: center;
 }
 
 .login_header h1{
@@ -57,4 +59,12 @@ body {
     background-color: gray;
     color: black;
     cursor: auto;
+}
+
+.character-selection {
+    display: none; /* Inicialmente esconde os personagens */
+}
+
+.show-characters .character-selection {
+    display: flex; /* Mostra os personagens quando a classe show-characters é adicionada */
 }
