@@ -1,3 +1,16 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(76, 177, 36, 0.747);
+    font-size: 1.2em;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px;
+    margin: 0 0 30px;
+    border-radius: 5px;
+}
+
 .game-board{
     background-image: url('../images/fundo-3.jpg');
     background-size: cover;
@@ -15,7 +28,7 @@
 .plant{
     position: absolute;
     bottom: 0;
-    width: 130px;
+    width: 150px;
     animation: plant-animation 3s infinite linear;
 }
 
